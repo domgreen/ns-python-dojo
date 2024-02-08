@@ -1,8 +1,12 @@
 def to_decimal(roman_number):
-    if roman_number == "I":
-        return 1
     
-    if roman_number == "II":
-        return 2
+    result = 0
+    match roman_number:
+        case "I":
+            result = 1
+        case "II":
+            result = 2
+        case "V":
+            result = 5
     
-    return 1
+    return result

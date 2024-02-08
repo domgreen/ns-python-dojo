@@ -5,3 +5,6 @@ def test_I():
 
 def test_II():
     assert roman.to_decimal("II") == 2
+
+def test_V():
+    assert roman.to_decimal("V") == 5
