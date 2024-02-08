@@ -1,6 +1,5 @@
-def hello_world():
-    print("Hello Netspeak")
+import roman
 
 if __name__ == '__main__':
-    print("Hello Main")
-    hello_world()
+    result = roman.to_decimal()
+    print(result)
