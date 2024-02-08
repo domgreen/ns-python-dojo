@@ -21,8 +21,14 @@ def test_VI():
 def test_L():
     assert roman.to_decimal("L") == 50
 
+def test_IX():
+    assert roman.to_decimal("IX") == 9
+
 def test_X():
     assert roman.to_decimal("X") == 10
+
+def test_XX():
+    assert roman.to_decimal("XX") == 20
 
 def test_C():
     assert roman.to_decimal("C") == 100

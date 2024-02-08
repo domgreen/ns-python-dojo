@@ -13,6 +13,7 @@ def to_decimal(roman_number: str) -> int:
                 if prev_number == 1:
                    result -= 2
                 result = result + 5
+                prev_number = 5
             case "X":
                 result += 10
             case "L":
